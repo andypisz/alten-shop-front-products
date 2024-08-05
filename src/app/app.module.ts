@@ -17,7 +17,8 @@ import { SharedModule } from 'app/shared/shared.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
-    BaseModule
+    BaseModule,
+    HttpClientModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'en' }
