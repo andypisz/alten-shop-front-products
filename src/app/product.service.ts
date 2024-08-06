@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import mockedProducts from '../assets/products.json';
 import { HttpClient } from '@angular/common/http';
-import { Product } from './models/product';
+import { Product } from './product/product.model';
 
 @Injectable({
   providedIn: 'root'

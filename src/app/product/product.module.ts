@@ -10,6 +10,9 @@ import { ProductService } from 'app/product.service';
   imports: [
     CommonModule
   ],
+  exports: [
+    ProductsComponent
+  ],
   providers: [ProductService]
 })
 export class ProductModule { }
